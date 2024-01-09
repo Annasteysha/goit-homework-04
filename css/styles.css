@@ -171,30 +171,8 @@ margin: 0 auto 48px;
 
 /*Section2*/
 
-.section-two-list {
-display: flex;
-gap: 24px;
-margin: 0;
-padding: 0;
-}
-.icon-div-two {
-display: flex;
-align-items: center;
-justify-content: center;
-height: 112px;
-background-color: #f4f4fd;
-border-radius: 4px;
-margin-bottom: 8px;
-}
-.icon-section-two {
-    border-radius: 4px;
-    border: 1px solid #8E8F99;
-    background: #F4F4FD;
-    width: 264px;
-    height: 112px;
-    align-items: center;
-    padding: 24px 100px;
-}
+
+
 .visually-hidden {
 position: absolute;
 width: 1px;
@@ -207,10 +185,33 @@ clip-path: inset(100%);
 clip: rect(0 0 0 0);
 overflow: hidden;
 }
+.section-two-list {
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
 
 .section-two-list-one {
 width: calc((100% - 72px) / 4);
 
+}
+.icon-div-two {
+    display: flex;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+.icon-section-two {
+    border-radius: 4px;
+    border: 1px solid #8E8F99;
+    background: #F4F4FD;
+    width: 264px;
+    height: 112px;
+    align-items: center;
+    padding: 24px 100px;
 }
 .section-two {
 font-size: 20px;
@@ -280,7 +281,6 @@ text-align: center;
 .section-three-icon-li {
     width: 40px;
     height: 40px;
-    
 }
 
 .section-three-icon-a {
@@ -296,18 +296,9 @@ text-align: center;
 }
 
 
-.section-three-icon-a:hover {
-    background-color: #404bbf;
-}
-.section-three-icon-a:focus, .section-three-icon-a:active {
-background-color: #404bbf;
-}
 
 .section-three-icon-svg {
     fill: #f4f4fd;
-    margin-top: 16px;
-    border-radius: 50%;
-    background: #4d5ae5;
     background-size: 24px;
     background-repeat: no-repeat;
     content: "";
@@ -316,7 +307,7 @@ background-color: #404bbf;
 }
 
 
-.section-three-icon-svg:hover,
+.section-three-icon-a:hover,
 .icon-fon:focus {
     background: #31D0AA;
     transition-duration: 250ms;
@@ -368,6 +359,7 @@ overflow: hidden;
 padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
+transform: translateY(0%);
 }
 .section-four-p {
 position: absolute;
@@ -441,7 +433,8 @@ line-height: 1.5;
 .footer-icon {
 display: flex;
 gap: 16px;
-
+margin: 0;
+    padding: 0;
 }
 .footer-icon-li {
 width: 40px;
