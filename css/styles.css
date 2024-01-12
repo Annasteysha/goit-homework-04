@@ -406,11 +406,21 @@ width: 100%;
 transform: translateY(100%);
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+    left: 0;
 }
-.section-four-div p {
-transition: transform;
-}
-.section-four-div p:hover {
+.section-four-div {
+
+position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3f51b5;
+
+    transform: translatey(100%);
+    transition: transform 250ms ease-in-out;}
+
+.section-four-p:hover {
 transform: translateY(0, 0);
 }
 
