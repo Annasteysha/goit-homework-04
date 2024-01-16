@@ -80,6 +80,7 @@ color: #2e2f42;
     height: 4px;
     border-radius: 2px;
     margin-top: 20px;
+    width: 100%;
     content: "";
     display: flex;
 }
